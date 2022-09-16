@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapha Sea</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Overpass+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/small_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="graphic">
+        <div class="graphic__logo">
+            <img src="./img/logoTPS.png" alt="Trapha Sea">
+        </div>
+        <div class="graphic__name">
+            <b class="animation">TRAPHA SEA</b>
+            <i class="animation">Niềm tin của bạn<br> Hạnh phúc của chúng tôi</i>
+        </div>
+        <div class="graphic__ad">
+            <div id = "digital-clock"> </div>
+            <div id="current-time"></div>
+            <img src="./img/slider2.gif" alt="ad">
+        </div>
+    </div>
+    <header class="nav">
+            <a class="nav__name" href="">
+                <img src="./img/logoTPS.png" alt="logo">
+                <b class="animation">TRAPHA SEA</b>
+            </a>
+            <ul class="nav__menu">
+                <li>
+                   <a href="#san_pham">SẢN PHẨM 
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                   </a>
+                    <!-- <ul class="nav__menu__sub">
+                        <li>
+                            <a href=""> NƯỚC MUỐI</a></li>
+                        <li>
+                            <a href="">CỒN</a> </li>
+                    </ul> -->
+                </li>
+                <li>
+                    <a href="#lien_he">LIÊN HỆ</a>
+                </li>
+            </ul>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="./img/slide1.0.jpg" style="width:100%">
+                  <div class="text">TEXT </div>
+                </div>
+               
+                <div class="mySlides fade">
+                  <img src="./img/slide1.jpg" style="width:100%">
+                  <div class="text">TEXT </div>
+                </div>
+               
+                <div class="mySlides fade">
+                  <img src="./img/slide2.jpg" style="width:100%">
+                  <div class="text">TEXT </div>
+                </div>
+              </div>
+              <br>
+               
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span> 
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+              </div>
+        </div>
+        
+        <h1 id="san_pham">SẢN PHẨM</h1>
+        <div id="product">
+            <div class="product_item salt">
+                <h2>NƯỚC MUỐI</h2>
+                <div class="flex__item">
+                    <img src="./img/natr-vip500ml-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>NATRICLORID 0,9% 500ml (NẮP VIP THẾ HỆ MỚI)</p>
+                        <a href="./natriVip500.html">CHI TIẾT</a>
+                    </div>
+                    
+                </div>
+                <div class="flex__item">
+                    <img src="./img/natri-vip1000ml-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>NATRICLORID 0,9% 1000ml (NẮP VIP THẾ HỆ MỚI)</p>
+                        <a href="./natriVip1000.html">CHI TIẾT</a>
+                    </div>
+                   
+                </div>
+                <div class="flex__item">
+                    <img src="./img/natri_noVip-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>NATRICLORID 0,9% 500ml (NẮP NHỌN TRẮNG)</p>
+                        <a href="./natriNovip.html">CHI TIẾT</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="product_item alcohol">
+                <h2>CỒN</h2>
+                <div class="flex__item">
+                    <img src="./img/y_te_nho-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>CỒN Y TẾ (90° VÀ 70°)</p>
+                        <a href="./ConYTe.html">CHI TIẾT</a>
+                    </div>
+                    
+                </div>
+                <div class="flex__item">
+                    <img src="./img/methanol_500ml-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>CỒN METHANOL (90° VÀ 70°)</p>
+                        <a href="./Methanol.html">CHI TIẾT</a>
+                    </div>
+                   
+                </div>
+                <div class="flex__item">
+                    <img src="./img/ethanol_500ml-removebg-preview.png" alt="">
+                    <div class="item_detail">
+                        <p>CỒN Y TẾ ETHANOl (90° VÀ 70°)</p>
+                        <a href="./ConYTeEthanol.html">CHI TIẾT</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="lien_he">
+        <div class="footer location">
+            <h4>CÔNG TY CỔ PHẦN SẢN XUẤT VÀ THƯƠNG MẠI TRAPHA SEA</h4>
+            <p>Nhà số 9, Ngách 1/4, Ngõ 4 Thượng Phúc, Đội 7, Xã Tả Thanh Oai,<br>
+                Huyện Thanh Trì, Thành phố Hà Nội, Việt Nam</p>
+        </div>
+        <div class="footer call">
+            <a  href="tel:0389880990">
+                <i class="fa-solid fa-phone"></i>
+                0389 880 990</a>
+            <a href="m.facebook.com">
+                <i class="fa-brands fa-facebook" ></i>
+                 TRAPHA SEA</a>
+        </div>
+    </footer>
+    <div class="end">
+        <p>
+        <i class="fa-solid fa-trademark"></i>
+            By: NVB
+        </p> 
+    </div>
+
+
+
+
+
+
+
+<script src="./script.js">  
+</script>
+</body>
+</html>

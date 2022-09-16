@@ -1,0 +1,138 @@
+@media (min-width:740px) and (max-width:1023px){
+    .graphic__ad img {
+        width: 250px;
+        height: 160px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .graphic__name b {
+        display: block;
+        font-size: 40px;
+    }
+
+    .graphic__name i {
+        font-size: 20px;
+    }
+
+    .graphic__logo img {
+        width: 190px;
+        position: relative;
+        height: auto;
+        left: 5px;
+    }
+
+    .location p{
+        font-size: 12px;
+    }
+
+    .call a {
+        position: relative;
+        text-decoration: none;
+        margin: 7px;
+        margin-left: -9px;
+        color: #0004ff;
+        width: 145px;
+    }
+}
+
+@media (max-width:739px) {
+    .graphic__name b, 
+    .graphic__name i,
+    .graphic__logo img {
+        display: none;
+    }
+
+    .graphic {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        background-image: linear-gradient(to right,#00ffbf,#e5ff00);
+    }
+
+    .graphic__ad img {
+        /* width: auto; */
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .product__name {
+        margin: 20px;
+        padding: 10px 20px;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 20px;
+        background-color: #ffd900e8;
+    }
+
+    .product__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .product__img img {
+        width: auto;
+        height: 250px;
+    }
+
+    .product__description {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .product__description > i {
+        font-size: 12px;
+        display: block;
+        text-align: center;
+    }
+
+    .product__contact a {
+        text-decoration: none;
+        font-size: 17px;
+        /* border: 1px solid #000; */
+        padding: 20px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 30px;
+    }
+
+    #lien_he {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        border-top: 2px solid black;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .footer {
+        margin: 10px 0 0 0;
+    }
+
+    .location h4 {
+        font-size: 15px;
+    }
+
+    .location p {
+        font-size: 10px;
+    }
+
+    .call a {
+        position: relative;
+        text-decoration: none;
+        margin: 3px;
+        font-size: 12px;
+        color: #0004ff;
+    }
+    
+}
